@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+    font-family: 'roboto';
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #232527;
+}
+
+.item-container {
+    width: 150px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.item-img {
+    background-color: rgba(57,59,61,.5);
+    border-radius: 7px;
+}
+
+.item-img:hover {
+    background-color: rgba(46, 47, 47, 0.5);;
+}
+
+.limitedu-indicator {
+    position: relative;
+    height: 35px;
+    bottom: 25px;
+    right: 5px;
+}
+
+.item-name {
+    position: relative;
+    bottom: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.item-price-container {
+    position: relative;
+    bottom: 60px;
+}
+
+.item-price-container img {
+    height: 25px;
+}
+.item-price-container p {
+    position: relative;
+    bottom: 6px;
+    font-weight: bold;
+    display: inline-block;
+    color: hsla(0,0%,100%,.7);
+}
+
+.fedora-item {
+    position: relative;
+    top: 18px;
+}
